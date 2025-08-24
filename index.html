@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Layout with Flexbox & Grid</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="logo">MySite</div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Area (Grid Layout) -->
+  <main class="main">
+    <!-- Sidebar (Grid Item) -->
+    <aside class="sidebar">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#news">News</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content (Grid Item) -->
+    <section class="content">
+      <h1>Welcome to Our Website</h1>
+      <p>This is a responsive layout built with Flexbox and CSS Grid. It adapts to desktop, tablet, and mobile screens.</p>
+
+      <!-- Flexbox Cards -->
+      <div class="card-container">
+        <div class="card">
+          <h3>Design</h3>
+          <p>Creative and modern UI/UX design principles for all devices.</p>
+        </div>
+        <div class="card">
+          <h3>Development</h3>
+          <p>Clean code using HTML, CSS, and JavaScript for powerful web experiences.</p>
+        </div>
+        <div class="card">
+          <h3>Responsive</h3>
+          <p>Built with responsiveness in mind — looks great on any screen size.</p>
+        </div>
+      </div>
+
+      <!-- Image Gallery using CSS Grid -->
+      <h2>Our Work</h2>
+      <div class="gallery">
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/256152/pexels-photo-256152.jpeg" alt="Spaceweb" /></div>
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/586030/pexels-photo-586030.jpeg" alt="Marslab" /></div>
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/7672272/pexels-photo-7672272.jpeg" alt="Astrolink" /></div>
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/14243437/pexels-photo-14243437.jpeg" alt="Fighter AI" /></div>
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/4310574/pexels-photo-4310574.jpeg" alt="Star Trek finder" /></div>
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/12467595/pexels-photo-12467595.jpeg" alt="Soyuzlink" /></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 MySite. All rights reserved.</p>
+  </footer>
+</body>
+</html>
